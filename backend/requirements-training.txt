@@ -1,0 +1,6 @@
+# Offline training: needs TensorFlow (not in base requirements — install one of):
+#   pip install "tensorflow>=2.13,<2.16"
+#   # or Apple Silicon: see requirements-tensorflow.txt
+-r requirements.txt
+
+scikit-learn==1.3.2

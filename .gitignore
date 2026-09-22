@@ -1,0 +1,27 @@
+# Python
+backend/.venv/
+backend/.venv_test/
+backend/**/__pycache__/
+*.py[cod]
+backend/cardiosynth.db
+backend/uploads/
+# Downloaded PhysioNet / WFDB data & training artifacts (offline tooling)
+backend/datasets/mit_bih/*.atr
+backend/datasets/mit_bih/*.dat
+backend/datasets/mit_bih/*.hea
+backend/datasets/mit_bih/mitdb/
+backend/datasets/processed/*.npz
+backend/ml_models/*.h5
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Env
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# OS
+.DS_Store

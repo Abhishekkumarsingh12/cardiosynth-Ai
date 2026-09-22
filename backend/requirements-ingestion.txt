@@ -1,0 +1,12 @@
+# Optional dependencies for universal ECG ingestion
+#
+# These enable higher-accuracy extraction for images / scanned PDFs.
+# Safe default: the API runs without these and will fall back to report-text-only or manual input prompts.
+#
+# Notes:
+# - OCR via pytesseract requires the system "tesseract" binary to be installed and discoverable on PATH.
+# - OpenCV wheels can be platform-sensitive; install only if you want waveform extraction from images.
+
+opencv-python-headless==4.9.0.80
+pytesseract==0.3.10
+

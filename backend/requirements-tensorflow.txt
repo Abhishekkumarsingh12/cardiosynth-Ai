@@ -1,0 +1,12 @@
+# TensorFlow for ECG classifier + DDPM (install after requirements.txt).
+#
+# Default app behavior: ENABLE_MOCK_INFERENCE=false — you need a working TF import for real predictions.
+#
+# Linux / many Windows (CPU), Python 3.9–3.11:
+#   pip install "tensorflow>=2.13,<2.16"
+#
+# macOS Apple Silicon (M1/M2/M3): prefer a wheel that supports your OS/Python, e.g.:
+#   pip install "tensorflow>=2.15"
+# Older stacks sometimes used tensorflow-macos + tensorflow-metal; see TensorFlow install docs.
+#
+# If pip fails, use a Conda env or the official TF install guide for your exact Python version.
